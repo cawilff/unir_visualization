@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+.graf {
+  background-color: #efefef;
+}
+
+.ejes {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #7e7e7e;
+}
+
+.titulo {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 35px;
+  stroke: #000000;
+}
