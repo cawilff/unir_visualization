@@ -20,6 +20,12 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <div class="container mt-4" id="sel">
+      <select name="name_select" id="id_sel" onchange="changeFunc();">
+        <option value="todos">Todos</option>
+        <option value="altas15" alt= "estados con metas mayores a 15 000">Estados con metas altas</option>
+      </select>
+    </div>
     <div class="container mt-4" id="graf">
     </div>
 
@@ -33,5 +39,7 @@
       referrerpolicy="no-referrer"
     ></script>
     <script src="app.js"></script>
+    <script src="http://dc-js.github.io/dc.js/js/crossfilter.js"></script>
   </body>
+
 </html>
